@@ -37,5 +37,5 @@ test:
 production:
   <<: *default
   database: p55mav1_production
-  username: p55mav1
+  username: p55ma
   password: <%= ENV['P55MAV1_DATABASE_PASSWORD'] %>
