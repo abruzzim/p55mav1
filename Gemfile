@@ -28,11 +28,7 @@ gem 'bootstrap-sass', '~> 3.2.0.0'
 gem 'bcrypt', '~> 3.1.7'
 gem 'devise'
 gem 'omniauth'
-gem 'omniauth-facebook'
-gem 'omniauth-twitter'
-gem 'omniauth-amazon'
-gem 'omniauth-google'
-gem 'omniauth-github'
+gem 'omniauth-google-oauth2'
 
 # Use Capistrano for deployment
 group :development do
